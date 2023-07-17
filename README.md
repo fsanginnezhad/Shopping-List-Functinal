@@ -25,11 +25,20 @@ The project is organized into several folders and files, which are described bel
 
 To run the program, follow these steps:
 
-1. Clone the repository from GitHub: `git clone https://github.com/fsanginnezhad/Shopping-List-Functional.git`.
+1. Clone the repository from GitHub:
+   ```
+   git clone https://github.com/fsanginnezhad/Shopping-List-Functional.git
+   ```
 
-2. Navigate to the project directory: `cd Shopping-List-Functional`
+3. Navigate to the project directory:
+   ```
+   cd Shopping-List-Functional
+   ```
 
-3. Run the program: `python run.py`
+5. Run the program:
+   ```
+   python run.py
+   ```
 
 ## Usage
 
