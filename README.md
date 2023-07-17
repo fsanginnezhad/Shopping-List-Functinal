@@ -1,34 +1,62 @@
-# Shopping list project
+# Shopping List Project
 
-This is a Python project that implements a simple shopping list application. This project consists of several folders and files, which are described below.
+This is a Python project that implements a shopping list application. The application allows users to create a new shopping list, add products to it, remove products from it, and display the list of products in the basket. The application also allows an admin user to manage, add, edit, and delete groups and products. Users can select and buy products for their product basket with a final payable invoice presented at the end.
 
-## Project structure
+## Project Structure
+
+The project is organized into several folders and files, which are described below:
 
 - `conf/`:
-    - `log.py`: Manages and sets the project configuration log.
-- `core/`:
-    - `app.py`: contains the main logic of the application.
-- `Shop/`':
-    - `utils/`: contains all the functions used in the program.
-    - `models/`: contains the models, groupings and products of the product portfolio with their details, as well as the management model to manage, add, edit and delete groups and products.
-    - `helper/`: defines constant variables for the project.
-- `run.py`: the main file that runs the program.
+  - `log.py`: This file manages and sets the configuration log for the project.
 
-## How to run the program
+- `core/`:
+  - `app.py`: This file contains the main logic for the application. It handles user inputs, calls the necessary functions from the `utils` folder, and displays the output to the user.
+
+- `shop/`:
+  - `utils/`: This folder contains all the functions used in the app. Functions such as adding products to the basket, removing products, and displaying the final invoice are defined here.
+
+  - `models/`: This folder contains the product basket models, groupings, and products with their details. Additionally, it contains the admin model for managing, adding, editing, and deleting groups and products.
+
+  - `helper/`: This folder defines constant variables for the project, such as product prices and tax rates.
+
+- `run.py`: This is the main file that runs the program. Every command is sent to the desired file, and the program executes the corresponding function.
+
+## How to Run the Program
+
+To run the program, follow these steps:
 
 1. Clone the repository from GitHub: `git clone https://github.com/fsanginnezhad/Shopping-List-Functional.git`.
-2. Go to the project directory: "cd Shopping-List-Functional".
-3. Run the program: "python run.py".
 
-## Use
+2. Navigate to the project directory: `cd Shopping-List-Functional`
 
-The shopping list application allows users to create a new shopping list, add products to it, remove products from it, and display the list of products in the cart. The program also allows the admin user to manage, add, edit and delete groups and products. Users can select and purchase products for their cart by providing the final payable invoice that is provided at the end. Here is a brief overview of the available commands:
+3. Run the program: `python run.py`
 
-- "Add": adds a product to the shopping list.
-- "Remove": removes a product from the shopping list.
-- "Edit": edited a product from the shopping list.
-- "Show": displays the list of products in the shopping cart.
+## Usage
+
+When you run the program, you will be prompted to enter a command. Here is an overview of the available commands:
+
+- `add`: Adds a product to the shopping list. You will be prompted to enter the product name, quantity, and price.
+
+- `remove`: Removes a product from the shopping list. You will be prompted to enter the product name.
+
+- `edit`: Edit a product from the shopping list. you will be prompted to enter the product name.
+
+- `show`: Displays the list of products in the shopping basket, along with the subtotal, tax, and total payable amount.
+
+If you are an admin user, you can use the following additional commands:
+
+- `add_group`: Adds a new product group.
+
+- `edit_group`: Edits an existing product group.
+
+- `delete_group`: Deletes an existing product group.
+
+- `add_product`: Adds a new product to an existing group.
+
+- `edit_product`: Edits an existing product.
+
+- `delete_product`: Deletes an existing product.
 
 ## Credits
 
-This project was created by `Farshad Sanginnezhad`. If you have any questions or feedback, please contact me.
+This project was created by `Farshad Sanginnezhad`. If you have any questions or feedback, please feel free to contact me.
