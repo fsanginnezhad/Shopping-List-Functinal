@@ -57,6 +57,10 @@ If you are an admin user, you can use the following additional commands:
 
 - `delete_product`: Deletes an existing product.
 
+## preview
+
+![Capture](https://github.com/fsanginnezhad/Shopping-List-Functinal/assets/73942999/041bc099-8281-465a-b0ed-5649e4414847)
+
 ## Credits
 
 This project was created by `Farshad Sanginnezhad`. If you have any questions or feedback, please feel free to contact me.
